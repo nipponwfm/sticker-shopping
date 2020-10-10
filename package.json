@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app",
-    "dev": "nodemon src/app",
+    "dev": "env-cmd -f ./config.env nodemon src/app.js",
     "getdata": "node src/database/getData"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie": "^0.4.1",
+    "env-cmd": "^10.1.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.7",
