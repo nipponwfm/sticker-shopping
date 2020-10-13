@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/app",
     "dev": "env-cmd -f ./config.env nodemon src/app.js",
-    "getdata": "node src/database/getData"
+    "getdata": "env-cmd -f ./config.env node src/database/getData"
   },
   "keywords": [],
   "author": "",
