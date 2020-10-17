@@ -9817,7 +9817,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "* {\n  margin: 0px;\n  padding: 0px;\n  box-sizing: border-box; }\n\nhtml {\n  font-size: 62.5%; }\n\nli, a {\n  text-decoration: none; }\n\n#header, #body, #footer {\n  font-size: 2.2rem; }\n\n#header {\n  background-color: red;\n  height: 20vh;\n  padding: 30px; }\n  #header li, #header ul {\n    display: inline-block; }\n  #header li {\n    margin: 20px;\n    text-transform: uppercase; }\n  #header ul {\n    float: right; }\n\n#body {\n  background-color: pink;\n  height: 60vh; }\n\n#footer {\n  background-color: blue;\n  height: 20vh; }\n", "",{"version":3,"sources":["webpack://src/style/base/_default.scss","webpack://src/style/components/_frame.scss"],"names":[],"mappings":"AAAA;EACI,WAAW;EACX,YAAY;EACZ,sBAAsB,EAAA;;AAG1B;EACI,gBAAgB,EAAA;;AAGpB;EACI,qBAAqB,EAAA;;ACXzB;EACI,iBAAiB,EAAA;;AAGrB;EACI,qBAAqB;EACrB,YAAY;EACZ,aAAa,EAAA;EAHjB;IAKQ,qBAAqB,EAAA;EAL7B;IAQQ,YAAY;IACZ,yBAAyB,EAAA;EATjC;IAYQ,YAAY,EAAA;;AAIpB;EACI,sBAAsB;EACtB,YAAY,EAAA;;AAGhB;EACI,sBAAsB;EACtB,YAAY,EAAA","sourcesContent":["* {\r\n    margin: 0px;\r\n    padding: 0px;\r\n    box-sizing: border-box;\r\n}\r\n\r\nhtml {\r\n    font-size: 62.5%;\r\n}\r\n\r\nli, a {\r\n    text-decoration: none;\r\n}","#header, #body, #footer {\r\n    font-size: 2.2rem;\r\n}\r\n\r\n#header {\r\n    background-color: red;\r\n    height: 20vh;\r\n    padding: 30px;\r\n    li, ul {\r\n        display: inline-block;\r\n    }\r\n    li {\r\n        margin: 20px;\r\n        text-transform: uppercase;\r\n    }\r\n    ul {\r\n        float: right;\r\n    }\r\n}\r\n\r\n#body {\r\n    background-color: pink;\r\n    height: 60vh;\r\n}\r\n\r\n#footer {\r\n    background-color: blue;\r\n    height: 20vh;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "* {\n  margin: 0px;\n  padding: 0px;\n  border: 0px;\n  box-sizing: border-box; }\n\nhtml {\n  font-size: 62.5%;\n  font-family: sans-serif; }\n\na {\n  text-decoration: none; }\n\nli {\n  list-style: none; }\n\n#header, #body, #footer {\n  font-size: 2.3rem; }\n\n#header {\n  height: 20vh;\n  padding: 50px; }\n  #header li, #header ul {\n    display: inline-block; }\n  #header li {\n    margin-right: 40px;\n    text-transform: uppercase; }\n    #header li a {\n      padding-bottom: 10px; }\n      #header li a i {\n        margin-right: 10px; }\n    #header li a:hover {\n      border-bottom: 2px solid blue; }\n  #header li#search-bar {\n    position: relative; }\n    #header li#search-bar input {\n      width: 330px;\n      height: 3.5rem;\n      border: 3px solid rgba(0, 0, 0, 0.4);\n      border-radius: 10px;\n      padding-left: 10px;\n      font-size: 2rem;\n      outline: none; }\n    #header li#search-bar i {\n      position: absolute;\n      top: 6px;\n      right: 10px;\n      opacity: 0.4; }\n  #header ul#auth {\n    float: right; }\n    #header ul#auth :nth-child(2) {\n      position: relative; }\n      #header ul#auth :nth-child(2) p {\n        display: inline-block; }\n      #header ul#auth :nth-child(2) span {\n        position: absolute;\n        top: 40px;\n        right: 25px;\n        background-color: rgba(128, 128, 128, 0.2);\n        border-radius: 10px; }\n        #header ul#auth :nth-child(2) span a {\n          display: block;\n          margin: 10px;\n          color: black; }\n          #header ul#auth :nth-child(2) span a i {\n            width: 20px;\n            margin-right: 20px; }\n        #header ul#auth :nth-child(2) span a:hover {\n          border: none;\n          color: blue; }\n      #header ul#auth :nth-child(2) i {\n        margin-left: 5px; }\n\n#body {\n  background-color: pink;\n  min-height: 60vh; }\n\n#footer {\n  background-color: #b12e44;\n  min-height: 20vh;\n  display: grid;\n  grid-template-columns: auto auto;\n  padding: 30px 200px; }\n  #footer #social {\n    text-align: center;\n    margin-bottom: 10px; }\n    #footer #social li {\n      display: inline-block;\n      margin: 10px; }\n    #footer #social li:hover i {\n      transform: scale(1.2, 1.2); }\n  #footer #support i {\n    color: black;\n    width: 10px;\n    margin-right: 30px; }\n", "",{"version":3,"sources":["webpack://src/style/base/_default.scss","webpack://src/style/components/_frame.scss"],"names":[],"mappings":"AAAA;EACI,WAAW;EACX,YAAY;EACZ,WAAW;EACX,sBAAsB,EAAA;;AAG1B;EACI,gBAAgB;EAChB,uBAAuB,EAAA;;AAG3B;EACI,qBAAqB,EAAA;;AAGzB;EACI,gBAAgB,EAAA;;ACjBpB;EACI,iBAAiB,EAAA;;AAGrB;EACI,YAAY;EACZ,aAAa,EAAA;EAFjB;IAIQ,qBAAqB,EAAA;EAJ7B;IAOQ,kBAAkB;IAClB,yBAAyB,EAAA;IARjC;MAUY,oBAAoB,EAAA;MAVhC;QAYgB,kBAAkB,EAAA;IAZlC;MAgBY,6BACJ,EAAA;EAjBR;IAqBQ,kBAAkB,EAAA;IArB1B;MAuBY,YAAY;MACZ,cAAc;MACd,oCAAoC;MACpC,mBAAmB;MACnB,kBAAkB;MAClB,eAAe;MACf,aACJ,EAAA;IA9BR;MAgCY,kBAAkB;MAClB,QAAQ;MACR,WAAW;MACX,YAAY,EAAA;EAnCxB;IAwCQ,YAAY,EAAA;IAxCpB;MA0CY,kBAAkB,EAAA;MA1C9B;QA4CgB,qBAAqB,EAAA;MA5CrC;QA+CgB,kBAAkB;QAClB,SAAS;QACT,WAAW;QACX,0CAA0C;QAC1C,mBAAmB,EAAA;QAnDnC;UAqDoB,cAAc;UACd,YAAY;UACZ,YAAY,EAAA;UAvDhC;YAyDwB,WAAW;YACX,kBAAkB,EAAA;QA1D1C;UA8DoB,YAAY;UACZ,WAAW,EAAA;MA/D/B;QAmEgB,gBACJ,EAAA;;AAKZ;EACI,sBAAsB;EACtB,gBAAgB,EAAA;;AAGpB;EACI,yBAAkC;EAClC,gBAAgB;EAChB,aAAa;EACb,gCAAgC;EAChC,mBAAmB,EAAA;EALvB;IAOQ,kBAAkB;IAClB,mBAAmB,EAAA;IAR3B;MAUY,qBAAqB;MACrB,YAAY,EAAA;IAXxB;MAcY,0BAAyB,EAAA;EAdrC;IAmBY,YAAY;IACZ,WAAW;IACX,kBAAkB,EAAA","sourcesContent":["* {\r\n    margin: 0px;\r\n    padding: 0px;\r\n    border: 0px;\r\n    box-sizing: border-box;\r\n}\r\n\r\nhtml {\r\n    font-size: 62.5%;\r\n    font-family: sans-serif;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n}\r\n\r\nli {\r\n    list-style: none;\r\n}","#header, #body, #footer {\r\n    font-size: 2.3rem;\r\n}\r\n\r\n#header {\r\n    height: 20vh;\r\n    padding: 50px;\r\n    li, ul {\r\n        display: inline-block;\r\n    }\r\n    li {\r\n        margin-right: 40px;\r\n        text-transform: uppercase;\r\n        a {\r\n            padding-bottom: 10px;\r\n            i {\r\n                margin-right: 10px;\r\n            }\r\n        }\r\n        a:hover {\r\n            border-bottom: 2px solid blue\r\n        }\r\n    }\r\n\r\n    li#search-bar {\r\n        position: relative;\r\n        input {\r\n            width: 330px;\r\n            height: 3.5rem;\r\n            border: 3px solid rgba(0, 0, 0, 0.4);\r\n            border-radius: 10px;\r\n            padding-left: 10px;\r\n            font-size: 2rem;\r\n            outline: none\r\n        }\r\n        i {\r\n            position: absolute;\r\n            top: 6px;\r\n            right: 10px;\r\n            opacity: 0.4;\r\n        }\r\n    }\r\n\r\n    ul#auth {\r\n        float: right;\r\n        :nth-child(2) {\r\n            position: relative;\r\n            p {\r\n                display: inline-block;\r\n            }\r\n            span {\r\n                position: absolute;\r\n                top: 40px;\r\n                right: 25px;\r\n                background-color: rgba(128, 128, 128, 0.2);\r\n                border-radius: 10px;\r\n                a {\r\n                    display: block;\r\n                    margin: 10px;\r\n                    color: black;\r\n                    i {\r\n                        width: 20px;\r\n                        margin-right: 20px;\r\n                    }\r\n                }\r\n                a:hover {\r\n                    border: none;\r\n                    color: blue;\r\n                }\r\n            }\r\n            i {\r\n                margin-left: 5px\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n#body {\r\n    background-color: pink;\r\n    min-height: 60vh;\r\n}\r\n\r\n#footer {\r\n    background-color: rgb(177, 46, 68);\r\n    min-height: 20vh;\r\n    display: grid;\r\n    grid-template-columns: auto auto;\r\n    padding: 30px 200px;\r\n    #social {\r\n        text-align: center;\r\n        margin-bottom: 10px;\r\n        li {\r\n            display: inline-block;\r\n            margin: 10px;\r\n        }\r\n        li:hover i {\r\n            transform: scale(1.2,1.2)\r\n        }\r\n    }\r\n    #support {\r\n        i {\r\n            color: black;\r\n            width: 10px;\r\n            margin-right: 30px;\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -45947,10 +45947,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var root = document.getElementById("root"); //set page width equal to window screen size
-
-document.querySelector("html").style.width = window.screen.width + 'px';
-console.log(screen.width);
+var root = document.getElementById("root");
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_3__["Provider"], {
   store: _store_store__WEBPACK_IMPORTED_MODULE_19__["default"]
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
@@ -47081,29 +47078,157 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! cookie */ "./node_modules/cookie/index.js");
 /* harmony import */ var cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(cookie__WEBPACK_IMPORTED_MODULE_1__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
 var Auth = function Auth() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      display = _useState2[0],
+      setDisplay = _useState2[1];
+
   var cookies = cookie__WEBPACK_IMPORTED_MODULE_1___default.a.parse(document.cookie || '');
+
+  var detectOutSiteClick = function detectOutSiteClick() {
+    if (event.target === document.querySelector('.fa-caret-down')) {
+      setDisplay(!display);
+      document.removeEventListener('click', detectOutSiteClick);
+    } else {
+      if (display) {
+        setDisplay(false);
+        document.removeEventListener('click', detectOutSiteClick);
+      }
+    }
+  };
+
+  document.addEventListener('click', detectOutSiteClick);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     id: "auth"
-  }, cookies.token ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Hello ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/user"
-  }, cookies.username))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, cookies.token ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/cart"
-  }, "Go to your cart")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fas fa-shopping-cart fa-lg"
+  }), "Your cart")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    style: {
+      textTransform: 'none'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fas fa-user fa-lg"
+  }), "Hello, ", cookies.username), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    id: "user-functional-container",
+    style: {
+      visibility: display ? 'visible' : 'hidden'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/user"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-address-card"
+  }), "Information"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/recharge"
-  }, "Recharge")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fas fa-money-check-alt"
+  }), "Recharge"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/logout"
-  }, "Logout"))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fas fa-sign-out-alt"
+  }), "Logout")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fas fa-caret-down fa-lg"
+  }))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/login"
-  }, "Login")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fas fa-sign-in-alt fa-lg"
+  }), "Login")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/register"
-  }, "Register"))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fas fa-user-plus fa-lg"
+  }), "Register"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Auth);
+
+/***/ }),
+
+/***/ "./src/components/default/Footer.js":
+/*!******************************************!*\
+  !*** ./src/components/default/Footer.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Footer = function Footer() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "social"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Social"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-facebook fa-2x",
+    style: {
+      color: 'darkblue'
+    }
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-twitter fa-2x",
+    style: {
+      color: '#00a8ff'
+    }
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-github fa-2x",
+    style: {
+      color: 'black'
+    }
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-envelope fa-2x",
+    style: {
+      color: '#dc433d'
+    }
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-youtube fa-2x",
+    style: {
+      color: 'red'
+    }
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "support"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Support"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-bullhorn"
+  }), "Report")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fas fa-info-circle"
+  }), "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-ad"
+  }), "Advertisement"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
 
 /***/ }),
 
@@ -47119,20 +47244,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Auth__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Auth */ "./src/components/default/Auth.js");
-/* harmony import */ var _store_actionCenter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../store/actionCenter */ "./src/store/actionCenter.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ "./src/components/default/Footer.js");
+/* harmony import */ var _store_actionCenter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../store/actionCenter */ "./src/store/actionCenter.js");
 
 
 
 
-var detectSubmitSearch = function detectSubmitSearch() {
-  if (event.key === 'Enter') {
+
+var detectSubmitSearch = function detectSubmitSearch(input) {
+  if (event.key === 'Enter' || input === 'mouse') {
     var $searchBar = document.querySelector('#search-bar input');
 
     if (location.pathname !== '/stock') {
       localStorage.setItem('search-bar', $searchBar.value);
       location.pathname = '/stock';
     } else {
-      Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_2__["updateSearch"])($searchBar.value);
+      Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_3__["updateSearch"])($searchBar.value);
       $searchBar.value = '';
     }
   }
@@ -47144,19 +47271,28 @@ var Frame = function Frame(_ref) {
     id: "header"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/"
-  }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fas fa-home fa-lg"
+  }), "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/stock"
-  }, "Stocks")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fas fa-box-open fa-lg"
+  }), "Stocks")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     id: "search-bar"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
     placeholder: "search",
     onKeyDown: detectSubmitSearch
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fas fa-search",
+    onClick: function onClick() {
+      detectSubmitSearch('mouse');
+    }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Auth__WEBPACK_IMPORTED_MODULE_1__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "body"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Component, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "footer"
-  }, "THIS IS FOOTER"));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Frame);
@@ -47398,7 +47534,7 @@ var goPage = function goPage(page) {
   });
 };
 
-var updateFilter = function updateFilter(faction, order, sortBy, sale, search) {
+var updateFilter = function updateFilter(faction, order, sortBy, sale) {
   dispatch({
     type: 'go',
     page: 1
