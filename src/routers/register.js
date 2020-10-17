@@ -3,7 +3,7 @@ const router = new express.Router()
 const User = require('../database/models/user')
 const {checkError} = require('../utils/formErrorChecker')
 
-router.get('/register/process', async (req, res) => {
+router.post('/register/process', async (req, res) => {
     const user = new User({
         username: req.query.username,
         password: req.query.password,

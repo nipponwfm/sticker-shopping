@@ -5,11 +5,11 @@ const auth = async (req, res, next) => {
     try {
         const cookies = cookie.parse(req.headers.cookie || '')
         const user = await User.findOne({'tokens.token': cookies.token})
-        if (!user) throw new Error('You have to authorize')
+        if (!user) throw new Error('')
         req.user = user
         next()
     } catch(e) {
-        res.send(e.message)
+        res.redirect('/notauthorize')
     }
 }
 

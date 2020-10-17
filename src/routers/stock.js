@@ -7,6 +7,8 @@ router.get('/stock/process', async (req, res) => {
         var { page, faction, order, sortBy, sale, search } = req.query
         //filter by faction
         var items = faction ? await Item.find({ faction }) : await Item.find()
+        //filter item amount !==0 
+        items = items.filter(item => item.amount !== 0)
         //filter by search
         if (search) {
             search = search.toLowerCase()

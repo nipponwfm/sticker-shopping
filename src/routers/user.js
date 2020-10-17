@@ -4,13 +4,13 @@ const auth = require('../authorize/authorize')
 const path = require('path')
 
 router.get('/user', auth, (req, res) => {
-    res.sendFile(path.join(__dirname, '../../../frontend/public/index.html'))
+    res.sendFile(path.join(__dirname, '../../public/index.html'))
 })
 
 router.get('/user/process', auth, (req, res) => {
     const user = req.user
     res.send([
-        user.username, user.password, user.email, user.fullname, user.gender, user.birthday, user.address
+        user.username, user.password, user.email, user.fullname, user.gender, user.birthday, user.address, user.money
     ])
 })
 

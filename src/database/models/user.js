@@ -13,7 +13,8 @@ const user_schema = new Schema({
         unique: true
     },
     money: {
-        type: Number
+        type: Number,
+        default: 0
     },
     fullname: {
         type: String
@@ -30,8 +31,8 @@ const user_schema = new Schema({
     tokens: [{
         token: {
             type: String
-        }
-    }]
+        },
+    }]    
 })
 
 const User = model('users', user_schema)

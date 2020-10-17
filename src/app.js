@@ -9,10 +9,12 @@ const cartRouter = require('./routers/cart')
 const userRouter = require('./routers/user')
 const stockRouter = require('./routers/stock')
 const itemRouter = require('./routers/item')
+const historyRouter = require('./routers/history')
+const rechargeRouter = require('./routers/recharge')
 
 const app = express()
 
-const publicPath = path.join(__dirname, '../public') //'../../frontend/public'
+const publicPath = path.join(__dirname, '../public')
 app.use(express.static(publicPath))
 
 //run local
@@ -28,6 +30,8 @@ app.use(cartRouter)
 app.use(userRouter)
 app.use(itemRouter)
 app.use(stockRouter)
+app.use(rechargeRouter)
+app.use(historyRouter)
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(publicPath, 'index.html'))
