@@ -9817,7 +9817,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "* {\n  margin: 0px;\n  padding: 0px;\n  border: 0px;\n  box-sizing: border-box; }\n\nhtml {\n  font-size: 62.5%;\n  font-family: sans-serif; }\n\na {\n  text-decoration: none; }\n\nli {\n  list-style: none; }\n\n#header, #body, #footer {\n  font-size: 2.3rem; }\n\n#header {\n  height: 20vh;\n  padding: 50px; }\n  #header li, #header ul {\n    display: inline-block; }\n  #header li {\n    margin-right: 40px;\n    text-transform: uppercase; }\n    #header li a {\n      padding-bottom: 10px; }\n      #header li a i {\n        margin-right: 10px; }\n    #header li a:hover {\n      border-bottom: 2px solid blue; }\n  #header li#search-bar {\n    position: relative; }\n    #header li#search-bar input {\n      width: 330px;\n      height: 3.5rem;\n      border: 3px solid rgba(0, 0, 0, 0.4);\n      border-radius: 10px;\n      padding-left: 10px;\n      font-size: 2rem;\n      outline: none; }\n    #header li#search-bar i {\n      position: absolute;\n      top: 6px;\n      right: 10px;\n      opacity: 0.4; }\n  #header ul#auth {\n    float: right; }\n    #header ul#auth :nth-child(2) {\n      position: relative; }\n      #header ul#auth :nth-child(2) p {\n        display: inline-block; }\n      #header ul#auth :nth-child(2) span {\n        position: absolute;\n        top: 40px;\n        right: 25px;\n        background-color: rgba(128, 128, 128, 0.2);\n        border-radius: 10px; }\n        #header ul#auth :nth-child(2) span a {\n          display: block;\n          margin: 10px;\n          color: black; }\n          #header ul#auth :nth-child(2) span a i {\n            width: 20px;\n            margin-right: 20px; }\n        #header ul#auth :nth-child(2) span a:hover {\n          border: none;\n          color: blue; }\n      #header ul#auth :nth-child(2) i {\n        margin-left: 5px; }\n\n#body {\n  background-color: pink;\n  min-height: 60vh; }\n\n#footer {\n  background-color: #b12e44;\n  min-height: 20vh;\n  display: grid;\n  grid-template-columns: auto auto;\n  padding: 30px 200px; }\n  #footer #social {\n    text-align: center;\n    margin-bottom: 10px; }\n    #footer #social li {\n      display: inline-block;\n      margin: 10px; }\n    #footer #social li:hover i {\n      transform: scale(1.2, 1.2); }\n  #footer #support i {\n    color: black;\n    width: 10px;\n    margin-right: 30px; }\n", "",{"version":3,"sources":["webpack://src/style/base/_default.scss","webpack://src/style/components/_frame.scss"],"names":[],"mappings":"AAAA;EACI,WAAW;EACX,YAAY;EACZ,WAAW;EACX,sBAAsB,EAAA;;AAG1B;EACI,gBAAgB;EAChB,uBAAuB,EAAA;;AAG3B;EACI,qBAAqB,EAAA;;AAGzB;EACI,gBAAgB,EAAA;;ACjBpB;EACI,iBAAiB,EAAA;;AAGrB;EACI,YAAY;EACZ,aAAa,EAAA;EAFjB;IAIQ,qBAAqB,EAAA;EAJ7B;IAOQ,kBAAkB;IAClB,yBAAyB,EAAA;IARjC;MAUY,oBAAoB,EAAA;MAVhC;QAYgB,kBAAkB,EAAA;IAZlC;MAgBY,6BACJ,EAAA;EAjBR;IAqBQ,kBAAkB,EAAA;IArB1B;MAuBY,YAAY;MACZ,cAAc;MACd,oCAAoC;MACpC,mBAAmB;MACnB,kBAAkB;MAClB,eAAe;MACf,aACJ,EAAA;IA9BR;MAgCY,kBAAkB;MAClB,QAAQ;MACR,WAAW;MACX,YAAY,EAAA;EAnCxB;IAwCQ,YAAY,EAAA;IAxCpB;MA0CY,kBAAkB,EAAA;MA1C9B;QA4CgB,qBAAqB,EAAA;MA5CrC;QA+CgB,kBAAkB;QAClB,SAAS;QACT,WAAW;QACX,0CAA0C;QAC1C,mBAAmB,EAAA;QAnDnC;UAqDoB,cAAc;UACd,YAAY;UACZ,YAAY,EAAA;UAvDhC;YAyDwB,WAAW;YACX,kBAAkB,EAAA;QA1D1C;UA8DoB,YAAY;UACZ,WAAW,EAAA;MA/D/B;QAmEgB,gBACJ,EAAA;;AAKZ;EACI,sBAAsB;EACtB,gBAAgB,EAAA;;AAGpB;EACI,yBAAkC;EAClC,gBAAgB;EAChB,aAAa;EACb,gCAAgC;EAChC,mBAAmB,EAAA;EALvB;IAOQ,kBAAkB;IAClB,mBAAmB,EAAA;IAR3B;MAUY,qBAAqB;MACrB,YAAY,EAAA;IAXxB;MAcY,0BAAyB,EAAA;EAdrC;IAmBY,YAAY;IACZ,WAAW;IACX,kBAAkB,EAAA","sourcesContent":["* {\r\n    margin: 0px;\r\n    padding: 0px;\r\n    border: 0px;\r\n    box-sizing: border-box;\r\n}\r\n\r\nhtml {\r\n    font-size: 62.5%;\r\n    font-family: sans-serif;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n}\r\n\r\nli {\r\n    list-style: none;\r\n}","#header, #body, #footer {\r\n    font-size: 2.3rem;\r\n}\r\n\r\n#header {\r\n    height: 20vh;\r\n    padding: 50px;\r\n    li, ul {\r\n        display: inline-block;\r\n    }\r\n    li {\r\n        margin-right: 40px;\r\n        text-transform: uppercase;\r\n        a {\r\n            padding-bottom: 10px;\r\n            i {\r\n                margin-right: 10px;\r\n            }\r\n        }\r\n        a:hover {\r\n            border-bottom: 2px solid blue\r\n        }\r\n    }\r\n\r\n    li#search-bar {\r\n        position: relative;\r\n        input {\r\n            width: 330px;\r\n            height: 3.5rem;\r\n            border: 3px solid rgba(0, 0, 0, 0.4);\r\n            border-radius: 10px;\r\n            padding-left: 10px;\r\n            font-size: 2rem;\r\n            outline: none\r\n        }\r\n        i {\r\n            position: absolute;\r\n            top: 6px;\r\n            right: 10px;\r\n            opacity: 0.4;\r\n        }\r\n    }\r\n\r\n    ul#auth {\r\n        float: right;\r\n        :nth-child(2) {\r\n            position: relative;\r\n            p {\r\n                display: inline-block;\r\n            }\r\n            span {\r\n                position: absolute;\r\n                top: 40px;\r\n                right: 25px;\r\n                background-color: rgba(128, 128, 128, 0.2);\r\n                border-radius: 10px;\r\n                a {\r\n                    display: block;\r\n                    margin: 10px;\r\n                    color: black;\r\n                    i {\r\n                        width: 20px;\r\n                        margin-right: 20px;\r\n                    }\r\n                }\r\n                a:hover {\r\n                    border: none;\r\n                    color: blue;\r\n                }\r\n            }\r\n            i {\r\n                margin-left: 5px\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n#body {\r\n    background-color: pink;\r\n    min-height: 60vh;\r\n}\r\n\r\n#footer {\r\n    background-color: rgb(177, 46, 68);\r\n    min-height: 20vh;\r\n    display: grid;\r\n    grid-template-columns: auto auto;\r\n    padding: 30px 200px;\r\n    #social {\r\n        text-align: center;\r\n        margin-bottom: 10px;\r\n        li {\r\n            display: inline-block;\r\n            margin: 10px;\r\n        }\r\n        li:hover i {\r\n            transform: scale(1.2,1.2)\r\n        }\r\n    }\r\n    #support {\r\n        i {\r\n            color: black;\r\n            width: 10px;\r\n            margin-right: 30px;\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "* {\n  margin: 0px;\n  padding: 0px;\n  border: 0px;\n  box-sizing: border-box; }\n\nhtml {\n  font-size: 62.5%;\n  font-family: sans-serif; }\n\na {\n  text-decoration: none; }\n\nli {\n  list-style: none; }\n\n#header, #body, #footer {\n  font-size: 2.3rem; }\n\n#header {\n  height: 20vh;\n  padding: 50px; }\n  #header li, #header ul {\n    display: inline-block; }\n  #header li {\n    margin-right: 40px;\n    text-transform: uppercase; }\n    #header li a {\n      padding-bottom: 10px; }\n      #header li a i {\n        margin-right: 10px; }\n    #header li a:hover {\n      border-bottom: 2px solid blue; }\n  #header li#search-bar {\n    position: relative; }\n    #header li#search-bar input {\n      width: 330px;\n      height: 3.5rem;\n      border: 3px solid rgba(0, 0, 0, 0.4);\n      border-radius: 10px;\n      padding-left: 10px;\n      font-size: 2rem;\n      outline: none; }\n    #header li#search-bar i {\n      position: absolute;\n      top: 6px;\n      right: 10px;\n      opacity: 0.4; }\n  #header ul#auth {\n    float: right; }\n    #header ul#auth :nth-child(2) {\n      position: relative; }\n      #header ul#auth :nth-child(2) p {\n        display: inline-block; }\n      #header ul#auth :nth-child(2) span {\n        position: absolute;\n        top: 40px;\n        right: 25px;\n        background-color: rgba(128, 128, 128, 0.2);\n        border-radius: 10px; }\n        #header ul#auth :nth-child(2) span a {\n          display: block;\n          margin: 10px;\n          color: black; }\n          #header ul#auth :nth-child(2) span a i {\n            width: 20px;\n            margin-right: 20px; }\n        #header ul#auth :nth-child(2) span a:hover {\n          border: none;\n          color: blue; }\n      #header ul#auth :nth-child(2) i.fa-caret-down {\n        margin-left: 5px; }\n      #header ul#auth :nth-child(2) i.fa-caret-down:hover {\n        color: blue; }\n\n#body {\n  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));\n  min-height: 60vh;\n  padding: 0px 50px; }\n\n#footer {\n  background: linear-gradient(rgba(0, 0, 0, 0.7), black);\n  min-height: 20vh;\n  display: grid;\n  grid-template-columns: auto auto;\n  padding: 60px 200px;\n  color: white; }\n  #footer #social {\n    text-align: center;\n    margin-bottom: 10px; }\n    #footer #social li {\n      display: inline-block;\n      margin: 10px; }\n    #footer #social li:hover i {\n      transform: scale(1.2, 1.2); }\n  #footer #support a:hover {\n    color: blue; }\n  #footer #support i {\n    color: gray;\n    width: 10px;\n    margin-right: 30px; }\n\n#stock {\n  display: grid;\n  grid-template-columns: 20% 80%;\n  grid-template-rows: auto auto; }\n  #stock #filter {\n    grid-row: 1 / 3;\n    position: sticky;\n    top: 10px;\n    height: fit-content;\n    text-transform: uppercase;\n    margin-bottom: 10%;\n    color: white; }\n    #stock #filter h3 {\n      text-align: center;\n      background-color: rgba(121, 107, 107, 0.411);\n      border-radius: 10px;\n      margin: 45px 0px 5px 0px;\n      padding: 5px; }\n    #stock #filter #filter-main {\n      display: block;\n      background-color: rgba(36, 30, 30, 0.096);\n      border-radius: 20px;\n      padding: 20px; }\n      #stock #filter #filter-main tr :first-child {\n        padding-right: 5px;\n        margin: 15px 0px; }\n      #stock #filter #filter-main tr select {\n        height: 25px;\n        width: 100px;\n        font-size: 1.5rem; }\n        #stock #filter #filter-main tr select option {\n          font-size: 1.5rem; }\n      #stock #filter #filter-main tr input {\n        width: 25px;\n        height: 25px; }\n      #stock #filter #filter-main tr button {\n        width: 100%;\n        height: 25px;\n        border-radius: 10px;\n        font-size: 2.3rem; }\n      #stock #filter #filter-main tr button:hover {\n        color: white;\n        cursor: pointer;\n        background-color: blue; }\n      #stock #filter #filter-main tr button:active {\n        background-color: red;\n        transform: scale(0.9, 0.9); }\n  #stock #screen {\n    display: grid;\n    grid-template-columns: 33.33% 33.33% 33.33%;\n    grid-template-rows: auto auto auto; }\n    #stock #screen #screen-not-found {\n      grid-column: 2 / 3;\n      grid-row: 2 / 3;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      font-size: 3.3rem;\n      font-weight: bold;\n      color: white;\n      text-transform: uppercase; }\n    #stock #screen table.card {\n      display: flex;\n      justify-content: center;\n      align-items: flex-end;\n      margin: 30px; }\n      #stock #screen table.card tbody {\n        padding: 0px; }\n      #stock #screen table.card tr td {\n        text-align: center; }\n        #stock #screen table.card tr td p {\n          color: rgba(255, 255, 255, 0.712); }\n          #stock #screen table.card tr td p i {\n            margin-left: 3px;\n            color: green; }\n        #stock #screen table.card tr td img {\n          width: 100%;\n          height: 50%; }\n        #stock #screen table.card tr td #name {\n          font-weight: bold;\n          color: white; }\n        #stock #screen table.card tr td #name:hover {\n          color: blue; }\n        #stock #screen table.card tr td button {\n          width: 20vh;\n          height: 30px;\n          font-size: 2.2rem;\n          border-radius: 10px;\n          font-weight: bold;\n          background-color: #2db32d; }\n        #stock #screen table.card tr td button:hover {\n          background-color: #63ec63;\n          cursor: pointer; }\n        #stock #screen table.card tr td button:active {\n          background-color: red;\n          outline: none; }\n  #stock #navigation-page {\n    display: flex;\n    justify-content: center;\n    align-items: flex-end;\n    margin-bottom: 10px; }\n    #stock #navigation-page a {\n      margin: 0px 10px; }\n    #stock #navigation-page a:hover {\n      color: blue;\n      cursor: pointer; }\n    #stock #navigation-page a.active {\n      outline: 2px solid black;\n      padding: 2px; }\n    #stock #navigation-page i:hover {\n      color: blue;\n      cursor: pointer; }\n", "",{"version":3,"sources":["webpack://src/style/base/_default.scss","webpack://src/style/components/_frame.scss","webpack://src/style/components/_stock.scss"],"names":[],"mappings":"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","sourcesContent":["* {\r\n    margin: 0px;\r\n    padding: 0px;\r\n    border: 0px;\r\n    box-sizing: border-box;\r\n}\r\n\r\nhtml {\r\n    font-size: 62.5%;\r\n    font-family: sans-serif;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n}\r\n\r\nli {\r\n    list-style: none;\r\n}","#header, #body, #footer {\r\n    font-size: 2.3rem;\r\n}\r\n\r\n#header {\r\n    height: 20vh;\r\n    padding: 50px;\r\n    li, ul {\r\n        display: inline-block;\r\n    }\r\n    li {\r\n        margin-right: 40px;\r\n        text-transform: uppercase;\r\n        a {\r\n            padding-bottom: 10px;\r\n            i {\r\n                margin-right: 10px;\r\n            }\r\n        }\r\n        a:hover {\r\n            border-bottom: 2px solid blue\r\n        }\r\n    }\r\n\r\n    li#search-bar {\r\n        position: relative;\r\n        input {\r\n            width: 330px;\r\n            height: 3.5rem;\r\n            border: 3px solid rgba(0, 0, 0, 0.4);\r\n            border-radius: 10px;\r\n            padding-left: 10px;\r\n            font-size: 2rem;\r\n            outline: none\r\n        }\r\n        i {\r\n            position: absolute;\r\n            top: 6px;\r\n            right: 10px;\r\n            opacity: 0.4;\r\n        }\r\n    }\r\n\r\n    ul#auth {\r\n        float: right;\r\n        :nth-child(2) {\r\n            position: relative;\r\n            p {\r\n                display: inline-block;\r\n            }\r\n            span {\r\n                position: absolute;\r\n                top: 40px;\r\n                right: 25px;\r\n                background-color: rgba(128, 128, 128, 0.2);\r\n                border-radius: 10px;\r\n                a {\r\n                    display: block;\r\n                    margin: 10px;\r\n                    color: black;\r\n                    i {\r\n                        width: 20px;\r\n                        margin-right: 20px;\r\n                    }\r\n                }\r\n                a:hover {\r\n                    border: none;\r\n                    color: blue;\r\n                }\r\n            }\r\n            i.fa-caret-down {\r\n                margin-left: 5px;\r\n            }\r\n            i.fa-caret-down:hover {\r\n                color: blue;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n#body {\r\n    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));\r\n    min-height: 60vh;\r\n    padding: 0px 50px;\r\n}\r\n\r\n#footer {\r\n    background: linear-gradient( rgba(0, 0, 0, 0.7), black);\r\n    min-height: 20vh;\r\n    display: grid;\r\n    grid-template-columns: auto auto;\r\n    padding: 60px 200px;\r\n    color: white;\r\n    #social {\r\n        text-align: center;\r\n        margin-bottom: 10px;\r\n        li {\r\n            display: inline-block;\r\n            margin: 10px;\r\n        }\r\n        li:hover i {\r\n            transform: scale(1.2,1.2)\r\n        }\r\n    }\r\n    #support {\r\n        a:hover {\r\n            color: blue;\r\n        }\r\n        i {\r\n            color: gray;\r\n            width: 10px;\r\n            margin-right: 30px;\r\n        }\r\n    }\r\n}","#stock {\r\n    display: grid;\r\n    grid-template-columns: 20% 80%;\r\n    grid-template-rows: auto auto;\r\n    #filter {\r\n        grid-row: 1 / 3;\r\n        position: sticky;\r\n        top: 10px;\r\n        height: fit-content;\r\n        text-transform: uppercase;\r\n        margin-bottom: 10%;\r\n        color: white;\r\n        h3 {\r\n            text-align: center;\r\n            background-color: rgba(121, 107, 107, 0.411);\r\n            border-radius: 10px;\r\n            margin: 45px 0px 5px 0px;\r\n            padding: 5px;\r\n        }\r\n        #filter-main {\r\n            display: block;\r\n            background-color: rgba(36, 30, 30, 0.096);\r\n            border-radius: 20px;\r\n            padding: 20px;\r\n            tr {\r\n                :first-child {\r\n                    padding-right: 5px;\r\n                    margin: 15px 0px;\r\n                }\r\n                select {\r\n                    height: 25px;\r\n                    width: 100px;\r\n                    font-size: 1.5rem;\r\n                    option {\r\n                        font-size: 1.5rem\r\n                    }\r\n                }\r\n                input {\r\n                    width: 25px;\r\n                    height: 25px;\r\n                }\r\n                button {\r\n                    width: 100%;\r\n                    height: 25px;\r\n                    border-radius: 10px;\r\n                    font-size: 2.3rem;\r\n                }\r\n                button:hover {\r\n                    color: white;\r\n                    cursor: pointer;\r\n                    background-color: blue;\r\n                }\r\n                button:active {\r\n                    background-color: red;\r\n                    transform: scale(0.9, 0.9)\r\n                }\r\n            }\r\n        }    \r\n    }\r\n    #screen {\r\n        display: grid;\r\n        grid-template-columns: 33.33% 33.33% 33.33%;\r\n        grid-template-rows: auto auto auto;\r\n        #screen-not-found {\r\n            grid-column: 2 / 3;\r\n            grid-row: 2 / 3;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            font-size: 3.3rem;\r\n            font-weight: bold;\r\n            color: white;\r\n            text-transform: uppercase;\r\n        }\r\n        table.card {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: flex-end;\r\n            margin: 30px;\r\n            tbody {\r\n                padding: 0px;\r\n            }\r\n            tr {\r\n                td {\r\n                    text-align: center;\r\n                    p {\r\n                        color: rgba(255, 255, 255, 0.712);\r\n                        i {\r\n                            margin-left: 3px;\r\n                            color: green;\r\n                        }\r\n                    }\r\n                    img {\r\n                        width: 100%;\r\n                        height: 50%;\r\n                    }\r\n                    #name {\r\n                        font-weight: bold;\r\n                        color: white;\r\n                    }\r\n                    #name:hover {\r\n                        color: blue;\r\n                    }\r\n                    button {\r\n                        width: 20vh;\r\n                        height: 30px;\r\n                        font-size: 2.2rem;\r\n                        border-radius: 10px;\r\n                        font-weight: bold;\r\n                        background-color: rgb(45, 179, 45)\r\n                    }\r\n                    button:hover {\r\n                        background-color:  rgb(99, 236, 99);\r\n                        cursor: pointer;\r\n                    }\r\n                    button:active {\r\n                        background-color: red;\r\n                        outline: none;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n    #navigation-page {\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: flex-end;\r\n        margin-bottom: 10px;\r\n        a {\r\n            margin: 0px 10px;\r\n        }\r\n        a:hover {\r\n            color: blue;\r\n            cursor: pointer;    \r\n        }\r\n        a.active {\r\n            outline: 2px solid black;\r\n            padding: 2px;\r\n        }\r\n        i:hover {\r\n            color: blue;\r\n            cursor: pointer;\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -46132,7 +46132,9 @@ var checkRegisterStatus = function checkRegisterStatus() {
     return response.json();
   }).then(function (data) {
     if (data.error !== false) return $statusContainer.textContent = data.error;
-    fetch("/login/process?username=".concat(username, "&password=").concat(password)).then(function (response) {
+    fetch("/login/process?username=".concat(username, "&password=").concat(password), {
+      method: 'POST'
+    }).then(function (response) {
       if (response.ok) location.pathname = '/';else location.pathname = '/login';
     });
   });
@@ -46603,6 +46605,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! cookie */ "./node_modules/cookie/index.js");
 /* harmony import */ var cookie__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(cookie__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _utils_standardName__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utils/standardName */ "./src/components/Stock/utils/standardName.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -46614,6 +46617,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -46666,18 +46670,24 @@ var Card = function Card(_ref) {
     sessionStorage.setItem('cart', JSON.stringify(cart));
   };
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
     className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: url
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, name)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, __amount)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, price)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: url,
+    alt: "img"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/item/".concat(name),
+    target: "_blank"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    id: "name"
+  }, Object(_utils_standardName__WEBPACK_IMPORTED_MODULE_2__["default"])(name))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Amount: ", __amount))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, price, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-money-bill-wave-alt"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     disabled: disableAddBtn || !__amount,
     onClick: function onClick() {
       addItem(amount);
     }
-  }, "ADD")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/item/".concat(name)
-  }, "INFO")));
+  }, "ADD")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Card);
@@ -46697,41 +46707,67 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _store_actionCenter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../store/actionCenter */ "./src/store/actionCenter.js");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _utils_standardName__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils/standardName */ "./src/components/Stock/utils/standardName.js");
+
 
 
 
 var factions = ['', 'Bilibili', 'Dragon_Empery', 'Eagle_Union', 'Hololive', 'Iris_Libre', 'Iron_Blood', 'KizunaAI', 'Neptunia', 'Northern_Parliament', 'Royal_Navy', 'Sakura_Empire', 'Sardegna_Empire', 'Universal', 'Utawarerumono', 'Vichya_Dominion'];
 
 var doUpdateFilter = function doUpdateFilter() {
-  var faction = document.getElementById('faction').value;
+  var faction = document.getElementById('faction').value.replaceAll(' ', '_');
   var order = document.getElementById('order').value;
   var sortBy = document.getElementById('sort-by').value;
   var sale = document.getElementById('sale').checked;
   Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["updateFilter"])(faction, order, sortBy, sale);
 };
 
+var checkSelect = function checkSelect() {
+  var value = document.querySelector('#order').value;
+  var $sortBy = document.querySelector('#sort-by');
+  value === '' ? $sortBy.disabled = true : $sortBy.disabled = false;
+};
+
 var Filter = function Filter(_ref) {
   var search = _ref.search;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "filter"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Keyword: ", search ? search : '...'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-filter"
+  }), "Filter"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+    id: "filter-main"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Key"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    style: {
+      textTransform: 'none',
+      overflowWrap: 'anywhere'
+    }
+  }, ":", search ? Object(_utils_standardName__WEBPACK_IMPORTED_MODULE_3__["default"])(search) : '...', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     onClick: _store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["clearSearch"]
-  }, search ? ' (X)' : ''), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Faction"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+  }, search ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-backspace",
+    style: {
+      marginLeft: '3px'
+    }
+  }) : ''), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Faction"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
     id: "faction"
   }, factions.map(function (faction) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
       key: faction
-    }, faction);
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Order"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-    id: "order"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Popular"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Price")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Sort by"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-    id: "sort-by"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "A-Z"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Z-A")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Sale"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    }, Object(_utils_standardName__WEBPACK_IMPORTED_MODULE_3__["default"])(faction));
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Order"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    id: "order",
+    onChange: checkSelect
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Popular"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Price")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Sort by"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    id: "sort-by",
+    disabled: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "A-Z"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "Z-A")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "Sale"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
     id: "sale"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    colSpan: "2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     onClick: doUpdateFilter
-  }, "SUBMIT"));
+  }, "SUBMIT"))))));
 };
 
 var mapStateToProps = function mapStateToProps(state) {
@@ -46792,24 +46828,32 @@ var Navigation = function Navigation(_ref) {
 
     setTrash(__trash);
   }, [maxPage]);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    var $a = document.querySelectorAll('#navigation-page a');
+    $a.forEach(function (elem) {
+      if (elem.textContent == page) elem.classList.add('active');else elem.classList.remove('active');
+    });
+  }, [page]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "navigation-page"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "nav-btn",
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-chevron-left",
     onClick: function onClick() {
       Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["prevPage"])();
     }
-  }, '<'), maxPage <= 5 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, trash.map(function (value, index) {
+  }), maxPage <= 5 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, trash.map(function (value, index) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       key: index,
       onClick: function onClick() {
         Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["goPage"])(index + 1);
-      }
+      },
+      className: index + 1 === 1 ? 'active' : ''
     }, index + 1);
   })) : page <= 3 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     onClick: function onClick() {
       Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["goPage"])(1);
-    }
+    },
+    className: "active"
   }, "1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     onClick: function onClick() {
       Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["goPage"])(2);
@@ -46818,15 +46862,16 @@ var Navigation = function Navigation(_ref) {
     onClick: function onClick() {
       Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["goPage"])(3);
     }
-  }, "3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     onClick: function onClick() {
       Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["goPage"])(maxPage);
     }
   }, maxPage)) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     onClick: function onClick() {
       Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["goPage"])(1);
-    }
-  }, "1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, page === maxPage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    },
+    className: "active"
+  }, "1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, page === maxPage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     onClick: function onClick() {
       Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["goPage"])(maxPage);
     }
@@ -46834,16 +46879,16 @@ var Navigation = function Navigation(_ref) {
     onClick: function onClick() {
       Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["goPage"])(page);
     }
-  }, page), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, page), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     onClick: function onClick() {
       Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["goPage"])(maxPage);
     }
-  }, maxPage)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "nav-btn",
+  }, maxPage)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-chevron-right",
     onClick: function onClick() {
       Object(_store_actionCenter__WEBPACK_IMPORTED_MODULE_1__["nextPage"])();
     }
-  }, '>'));
+  }));
 };
 
 var mapStateToProps = function mapStateToProps(state) {
@@ -46911,7 +46956,9 @@ var Screen = function Screen(_ref) {
   }, [filter, page]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "screen"
-  }, items.length === 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Not found") : items.map(function (item) {
+  }, items.length === 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "screen-not-found"
+  }, "Not found") : items.map(function (item) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
       key: item._id,
       name: item.name,
@@ -46960,6 +47007,26 @@ var Stock = function Stock() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Stock);
+
+/***/ }),
+
+/***/ "./src/components/Stock/utils/standardName.js":
+/*!****************************************************!*\
+  !*** ./src/components/Stock/utils/standardName.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var standardName = function standardName(name) {
+  var _name = name.replaceAll('_', ' ');
+
+  if (_name.length > 13) return _name.slice(0, 13) + '...';
+  return _name;
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (standardName);
 
 /***/ }),
 
@@ -47119,13 +47186,13 @@ var Auth = function Auth() {
   }, cookies.token ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/cart"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-shopping-cart fa-lg"
+    className: "fas fa-shopping-cart fa-lg"
   }), "Your cart")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     style: {
       textTransform: 'none'
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-user fa-lg"
+    className: "fas fa-user fa-lg"
   }), "Hello, ", cookies.username), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     id: "user-functional-container",
     style: {
@@ -47138,21 +47205,21 @@ var Auth = function Auth() {
   }), "Information"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/recharge"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-money-check-alt"
+    className: "fas fa-money-check-alt"
   }), "Recharge"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/logout"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-sign-out-alt"
+    className: "fas fa-sign-out-alt"
   }), "Logout")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-caret-down fa-lg"
+    className: "fas fa-caret-down fa-lg"
   }))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/login"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-sign-in-alt fa-lg"
+    className: "fas fa-sign-in-alt fa-lg"
   }), "Login")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/register"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-user-plus fa-lg"
+    className: "fas fa-user-plus fa-lg"
   }), "Register"))));
 };
 
@@ -47220,7 +47287,7 @@ var Footer = function Footer() {
   }), "Report")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-info-circle"
+    className: "fas fa-info-circle"
   }), "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
@@ -47272,11 +47339,11 @@ var Frame = function Frame(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-home fa-lg"
+    className: "fas fa-home fa-lg"
   }), "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/stock"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-box-open fa-lg"
+    className: "fas fa-box-open fa-lg"
   }), "Stocks")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     id: "search-bar"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -47284,7 +47351,7 @@ var Frame = function Frame(_ref) {
     placeholder: "search",
     onKeyDown: detectSubmitSearch
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-search",
+    className: "fas fa-search",
     onClick: function onClick() {
       detectSubmitSearch('mouse');
     }
