@@ -38,4 +38,17 @@ router.get('/stock/process', async (req, res) => {
     }
 })
 
+router.get('/stock/home', async (req, res) => {
+    var items = await Item.find();
+    switch(req.query.type) {
+        case 'popular': {
+            items.sort((a,b) => a.popular - b.popular)
+        }
+        case 'random': {
+            items.sort((a,b) => {return 0.5 - Math.random()})
+        }
+    }
+    res.send(items.splice(0, 9))
+})
+
 module.exports = router

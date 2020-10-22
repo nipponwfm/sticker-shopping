@@ -14,4 +14,8 @@ router.get('/user/process', auth, (req, res) => {
     ])
 })
 
+router.get('/user/address', auth, (req, res) => {
+    res.send({address:req.user.address})
+})
+
 module.exports = router

@@ -12,7 +12,11 @@ router.get('/cart', auth, (req, res) => {
 
 router.get('/cart/buy', auth, async (req, res) => {
     const cart = JSON.parse(req.query.items)
-    const summary = req.query.summary / 10000
+    let summary = 0;
+    cart.forEach(item => {
+        summary += item.price * item.amount
+    })
+    summary /= 10000
     const user = req.user
     if (user.money < summary) res.redirect('http://localhost:8080/payment?result=false')
     else {
