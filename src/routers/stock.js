@@ -51,4 +51,11 @@ router.get('/stock/home', async (req, res) => {
     res.send(items.splice(0, 9))
 })
 
+router.get('/stock/relatedItem', async (req, res) => {
+    const faction = req.query.faction
+    var items = await Item.find({faction})
+    items.sort((a,b) => {return 0.5 - Math.random()})
+    res.send(items.splice(0, 9))
+})
+
 module.exports = router
