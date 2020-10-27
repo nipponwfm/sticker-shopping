@@ -18,7 +18,8 @@ router.get('/cart/buy', auth, async (req, res) => {
     })
     summary /= 10000
     const user = req.user
-    if (user.money < summary) res.redirect('http://localhost:8080/payment?result=false')
+    //http://localhost:8080
+    if (user.money < summary) res.redirect('/payment?result=false')
     else {
         let items = []
         for (item of cart) {
@@ -37,7 +38,8 @@ router.get('/cart/buy', auth, async (req, res) => {
             items
         })
         user.save()
-        res.redirect('http://localhost:8080/payment?result=true')
+        //http://localhost:8080
+        res.redirect('/payment?result=true')
     }
 })
 

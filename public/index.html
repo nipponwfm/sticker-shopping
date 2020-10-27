@@ -10,12 +10,10 @@
     <div id="root"></div>
     <script>
         const $body = document.querySelector('body')
-        //set page width equal to window screen size
-        const scrollBarWidth = $body.scrollWidth
-        $body.style.width = scrollBarWidth - 1 + 'px'
+        $body.style.width = screen.availWidth + 'px'
     </script>
     <script src="https://kit.fontawesome.com/a36ad47c5d.js" crossorigin="anonymous"></script>
-    <script src="/bundle.js"></script>
+    <script src="./bundle.js"></script>
 </body>
 
 </html>

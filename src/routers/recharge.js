@@ -8,9 +8,11 @@ router.get('/recharge/process', auth, (req, res) => {
         const user = req.user
         user.money += money
         user.save()
-        res.redirect('http://localhost:8080/recharge/result?result=true')
+        //http://localhost:8080
+        res.redirect('/recharge/result?result=true')
     } catch(e) {
-        res.redirect('http://localhost:8080/recharge/result?result=false')
+        //http://localhost:8080
+        res.redirect('/recharge/result?result=false')
     }
 })
 

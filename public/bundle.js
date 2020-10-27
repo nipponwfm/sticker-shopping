@@ -59006,7 +59006,8 @@ var Cart = function Cart() {
   }, [onClickDetect]);
 
   var buyCart = function buyCart() {
-    location.href = "http://localhost:3000/cart/buy?items=".concat(JSON.stringify(cart));
+    //http://localhost:3000
+    location.href = "/cart/buy?items=".concat(JSON.stringify(cart));
     sessionStorage.setItem('cart', JSON.stringify([]));
   };
 
@@ -59543,7 +59544,7 @@ var NotFound = function NotFound() {
     id: "not-found",
     className: "single-announcement"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fas fa-exclamation-triangle fa-2x",
+    className: "fas fa-exclamation-triangle fa-2x",
     style: {
       marginRight: '20px'
     }
@@ -59584,8 +59585,9 @@ var submitRecharge = function submitRecharge() {
   var sum = 0;
   checkBox.forEach(function (elem) {
     if (elem.checked) sum += Number(elem.value);
-  });
-  location.href = "http://localhost:3000/recharge/process?money=".concat(sum / 10000);
+  }); //http://localhost:3000
+
+  location.href = "/recharge/process?money=".concat(sum / 10000);
 };
 
 var Recharge = function Recharge() {
